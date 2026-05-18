@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trashtastic - Turn Trash Into Treasure</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- ===== NAVBAR ===== -->
+    <header>
+      <div class="logo">Trashtastic</div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#funfacts">Fun Facts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <!-- ===== HOME / HERO ===== -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Trashtastic</h1>
+        <p>
+          Mengubah sisa kain spunbond dan tutup botol bekas menjadi gantungan
+          kunci yang unik, ringan, dan punya cerita.
+        </p>
+        <div class="hero-buttons">
+          <a href="#about" class="btn">About Us</a>
+          <a href="#gallery" class="btn btn-outline">See Our Products</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT US ===== -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-wrapper">
+
+          <div class="about-image">
+            <img
+              src="images/1.png"
+              alt="Proses pembuatan dan produk Trashtastic"
+            />
+          </div>
+
+          <div class="about-text">
+            <h2>Who We Are</h2>
+            <p>
+              Trashtastic lahir dari satu pertanyaan sederhana: mau diapakan
+              semua sisa kain spunbond yang menumpuk itu? Alih-alih
+              membiarkannya berakhir di tempat sampah, kami memilih untuk
+              mengubahnya menjadi sesuatu yang bisa kamu pakai sehari-hari.
+            </p>
+            <p>
+              Kami adalah proyek kreatif berbasis daur ulang yang fokus pada
+              pemanfaatan limbah kain spunbond, yaitu bahan yang paling sering
+              dipakai untuk tas belanja dan perlengkapan event, tapi sayangnya
+              juga paling sering terbuang begitu saja setelah digunakan. Di
+              Trashtastic, potongan-potongan sisa itu kami jemput sebelum sempat
+              jadi sampah.
+            </p>
+            <p>
+              Produk andalan kami adalah gantungan kunci dari sisa kain spunbond
+              yang dipercantik dengan patch tutup botol gelas bekas. Setiap
+              buahnya unik, ringan, dan punya cerita tersendiri.
+            </p>
+            <p>
+              Kami percaya menjaga lingkungan tidak harus terasa berat. Bisa
+              dimulai dari hal kecil, seperti memilih produk yang dibuat dengan
+              niat baik.
+            </p>
+            <a href="#contact" class="btn">Contact Us</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALLERY ===== -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <h2 class="section-title">Our Products</h2>
+        <p class="section-subtitle">
+          Setiap produk unik dan punya cerita tersendiri
+        </p>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/1.png" alt="Proses pembuatan Trashtastic" />
+            <div class="gallery-caption">Behind the Scenes</div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="images/3.png"
+              alt="Koleksi gantungan kunci Trashtastic"
+            />
+            <div class="gallery-caption">Our Collection</div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/4.jpeg" alt="Material daur ulang Trashtastic" />
+            <div class="gallery-caption">Recycled Materials</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FUN FACTS ===== -->
+    <section class="funfacts" id="funfacts">
+      <div class="container">
+        <h2 class="section-title">Fun Facts</h2>
+        <p class="section-subtitle">
+          Fakta-fakta seru tentang spunbond dan dampaknya
+        </p>
+
+        <!-- Intro -->
+        <p class="funfacts-intro">
+          Kamu mungkin sering lihat kain spunbond di mana-mana, tapi tahukah
+          kamu kalau bahan ini sebenarnya cukup bermasalah kalau tidak dikelola
+          dengan baik? Ini beberapa fakta seru yang bikin kami makin semangat
+          bergerak.
+        </p>
+
+        <!-- Banner image -->
+        <img
+          src="images/6.jpeg"
+          class="funfacts-banner"
+          alt="Ilustrasi limbah plastik"
+        />
+
+        <!-- 4 Stat cards with description -->
+        <div class="facts-grid">
+          <div class="fact-card">
+            <div class="fact-number">100+</div>
+            <div class="fact-label">Tahun spunbond terurai di alam</div>
+            <p class="fact-desc">
+              Kalau dibiarkan begitu saja, bahan ini bisa bertahan ratusan tahun
+              sebelum benar-benar hancur.
+            </p>
+          </div>
+          <div class="fact-card">
+            <div class="fact-number">80%</div>
+            <div class="fact-label">Sisa spunbond dibuang tanpa diolah</div>
+            <p class="fact-desc">
+              Padahal ukurannya masih cukup besar dan kondisinya masih bagus.
+              Dari situlah bahan baku kami berasal.
+            </p>
+          </div>
+          <div class="fact-card">
+            <div class="fact-number">1 kg</div>
+            <div class="fact-label">Kain diselamatkan per 100 gantungan</div>
+            <p class="fact-desc">
+              Kedengarannya kecil, tapi kalau dikali terus, angkanya lumayan
+              signifikan.
+            </p>
+          </div>
+          <div class="fact-card">
+            <div class="fact-number">2x</div>
+            <div class="fact-label">Jenis sampah didaur ulang per produk</div>
+            <p class="fact-desc">
+              Satu produk, dua masalah teratasi — spunbond dan tutup botol gelas
+              bekas sekaligus.
+            </p>
+          </div>
+        </div>
+
+        <!-- How We Make It -->
+        <div class="funfacts-process">
+          <span class="process-label">Cara Kami Membuat</span>
+          <h3 class="process-title">Dari Sampah ke Aksesori</h3>
+          <div class="process-list">
+            <div class="process-item">
+              <div class="process-number">1</div>
+              <div class="process-content">
+                <strong>Kumpulkan sisa spunbond</strong>
+                <p>
+                  Kami mengumpulkan potongan kain spunbond sisa dari konveksi,
+                  event organizer, dan rumah tangga yang biasanya langsung
+                  dibuang begitu saja.
+                </p>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-number">2</div>
+              <div class="process-content">
+                <strong>Pilih &amp; bersihkan tutup botol gelas</strong>
+                <p>
+                  Tutup botol gelas plastik dikumpulkan, dicuci, dan dipilih
+                  berdasarkan bentuk dan warna yang menarik untuk dijadikan
+                  patch dekoratif pada gantungan kunci.
+                </p>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-number">3</div>
+              <div class="process-content">
+                <strong>Potong, jahit, dan rangkai</strong>
+                <p>
+                  Spunbond dipotong dengan ukuran presisi, lalu dijahit dan
+                  dirangkai menjadi bentuk gantungan kunci. Patch tutup botol
+                  dipasang sebagai aksen unik di setiap buah.
+                </p>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-number">4</div>
+              <div class="process-content">
+                <strong>Quality check &amp; siap dikirim</strong>
+                <p>
+                  Setiap gantungan kunci diperiksa kualitasnya sebelum dikemas
+                  dengan packaging ramah lingkungan dan siap menemani
+                  perjalananmu.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Closing -->
+        <p class="funfacts-closing">
+          Kami tidak punya ambisi muluk-muluk. Kami cuma ingin menunjukkan
+          bahwa sampah yang kelihatannya tidak berguna pun bisa punya kehidupan
+          kedua kalau ada yang mau repot sedikit.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT US ===== -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-subtitle">We are ready to help you</p>
+        <div class="contact-wrapper">
+
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>
+              Punya pertanyaan atau mau pesan produk? Jangan ragu untuk
+              menghubungi kami kapan saja.
+            </p>
+
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="info-detail">
+                <strong>Address</strong>
+                <span>SMA Labschool Kebayoran</span>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="info-detail">
+                <strong>Phone</strong>
+                <span>+62 819-3939-0682</span>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="info-detail">
+                <strong>Email</strong>
+                <span>aneira2610@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+              <div class="info-detail">
+                <strong>Working Hours</strong>
+                <span>Monday - Friday, 08:00 AM - 05:00 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <form
+            class="contact-form"
+            action="https://formsubmit.co/aneira2610@gmail.com"
+            method="POST"
+          >
+            <!-- Konfigurasi Formsubmit -->
+            <input type="hidden" name="_subject" value="Pesan baru dari website Trashtastic!" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+
+            <div class="form-group">
+              <label for="nama">Full Name</label>
+              <input
+                type="text"
+                id="nama"
+                name="name"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="subjek">Subject</label>
+              <input
+                type="text"
+                id="subjek"
+                name="subject"
+                placeholder="What is this about?"
+              />
+            </div>
+            <div class="form-group">
+              <label for="pesan">Message</label>
+              <textarea
+                id="pesan"
+                name="message"
+                placeholder="Write your message here..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="form-submit">Send Message</button>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <p>&copy; 2026 Trashtastic. All rights reserved.</p>
+    </footer>
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navMenu = document.querySelector("nav ul");
+
+      hamburger.addEventListener("click", function () {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("open");
+      });
+
+      navMenu.querySelectorAll("a").forEach(function (link) {
+        link.addEventListener("click", function () {
+          hamburger.classList.remove("active");
+          navMenu.classList.remove("open");
+        });
+      });
+    </script>
+  </body>
+</html>
