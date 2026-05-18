@@ -391,7 +391,13 @@ footer p {
 
 .gallery-grid {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery-grid .gallery-item {
+  flex: 0 0 calc(33.33% - 14px);
 }
 
 .gallery-item {
@@ -421,6 +427,58 @@ footer p {
   color: #fff;
   text-align: center;
   background-color: #1a1a1a;
+}
+
+/* ===== PRICELIST ===== */
+.pricelist {
+  margin-top: 60px;
+}
+
+.pricelist-title {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #1b4332;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.price-grid {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.price-card {
+  flex: 1;
+  min-width: 140px;
+  max-width: 200px;
+  background-color: #f0f4ef;
+  border: 1.5px solid #d0e8d8;
+  border-radius: 16px;
+  padding: 28px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.price-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(45, 106, 79, 0.15);
+}
+
+.price-name {
+  font-size: 0.88em;
+  font-weight: 600;
+  color: #444;
+}
+
+.price-tag {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #2d6a4f;
 }
 
 /* ===== MEET OUR TEAM ===== */
@@ -775,12 +833,17 @@ html {
     margin-bottom: 36px;
   }
 
-  .gallery-grid {
-    flex-direction: column;
+  .gallery-grid .gallery-item {
+    flex: 0 0 calc(50% - 10px);
   }
 
   .gallery-item img {
     height: 200px;
+  }
+
+  .price-card {
+    flex: 0 0 calc(50% - 8px);
+    max-width: none;
   }
 
   /* Fun Facts */
